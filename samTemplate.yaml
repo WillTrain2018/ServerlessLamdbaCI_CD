@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: lambda_function.lambda_handler
       Runtime: python3.6
-      CodeUri: s3://pdomalajw07-lambda-pipeline/LambdaCode/lambda_function.py
+      CodeUri: s3://pdomalajw07-lambda-pipeline/LambdaCode/lambda_function.py.zip
       Description: 'Lambda function for CD Demo'
       MemorySize: 128
       Timeout: 30
