@@ -1,2 +1,2 @@
 # Command from AWS CodePipeline  to deploy CloudFormation stack for my ServerlessLambdaCFCI_CDdemo:
-aws cloudformation deploy --template-file /codebuild/output/src495931487/src/outputSamTemplate.yaml --stack-name <YOUR STACK NAME> 
+aws cloudformation deploy --template-file /codebuild/output/src495931487/src/outputSamTemplate.yaml --stack-name JWServerlessLambda
